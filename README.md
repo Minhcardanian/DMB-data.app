@@ -124,7 +124,19 @@ graph TD;
 
 ---
 
-## 6. Tổng kết
+## 6. Thiết kế UX cho nhập liệu
+- **Giao diện chọn thay vì nhập tay**:
+  - Các trường dữ liệu được hiển thị dưới dạng danh sách chọn (dropdown, radio button, checkbox) thay vì yêu cầu nhập văn bản thủ công.
+  - Người kiểm kê có thể chọn loại tài sản, tình trạng và số lượng từ các danh mục có sẵn.
+  - Đối với vi phạm, các loại vi phạm được liệt kê dựa trên danh mục quy định, giúp giảm sai sót và thống nhất dữ liệu.
+  - Các biểu mẫu có giao diện thân thiện, dễ sử dụng trên thiết bị di động.
+  
+- **Lợi ích của thiết kế UX này**:
+  - Giảm thiểu lỗi nhập dữ liệu do nhập sai hoặc thiếu thông tin.
+  - Tăng tốc độ nhập liệu, giúp nhân viên kiểm kê hoàn thành công việc nhanh hơn.
+  - Đảm bảo tính nhất quán trong báo cáo và xử lý dữ liệu.
+
+## 7. Tổng kết
 - Ứng dụng giúp nhập liệu **nhanh hơn, chính xác hơn**, loại bỏ việc nhập tay.
 - **Admin có thể quản lý trạng thái kiểm kê real-time** qua Google Sheets và Dashboard.
 - **Không cần server riêng** – sử dụng Google Apps Script để kết nối trực tiếp với Google Sheets.
