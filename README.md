@@ -15,13 +15,39 @@
 ### 🔹 Kiểm kê tài sản
 - Nhân viên kiểm kê chọn phòng từ danh sách.
 - Nhập thông tin về tài sản trong phòng (số lượng, tình trạng, ghi chú).
+- Các loại tài sản có thể kiểm kê bao gồm:
+  - **Giường tầng**
+  - **Giường đơn**
+  - **Bàn học**
+  - **Tủ sắt**
+  - **Ghế**
+  - **Tủ lạnh**
+  - **Máy lạnh**
+  - **Ấm đun**
+  - **Bộ chăn nệm**
 - Lưu dữ liệu trực tiếp vào Google Sheets (tab `Kiểm kê tài sản`).
 - Có thể cập nhật lại nếu sai sót.
-
+  
 ### 🔹 Kiểm kê vi phạm
 - Nhân viên nhập số phòng và chọn loại vi phạm.
 - Ghi chú chi tiết về vi phạm, ngày kiểm tra, người kiểm tra.
 - Dữ liệu được lưu vào Google Sheets (tab `Kiểm tra vi phạm`).
+- Các vi phạm có thể bao gồm các điều khoản sau:
+  - **Vệ sinh & Bảo trì**:
+    - Clause 7 Article 3: Không được vẽ, dán giấy, treo vật dụng lên tường.
+    - Clause 1 Article 6: Thường xuyên vệ sinh khu vực sinh hoạt.
+  - **Sử dụng tài sản**:
+    - Clause 2 Article 4: Không được di chuyển hoặc thay đổi cấu trúc phòng khi chưa có sự đồng ý của quản lý.
+    - Article 4.1: Người thuê có trách nhiệm bảo quản tài sản.
+  - **Hành vi và an toàn**:
+    - Article 3.10: Không được nuôi động vật trong KTX.
+    - Article 5.1: Không được cho người lạ ở trong phòng.
+    - Article 5.2: Không tổ chức tiệc hoặc sự kiện trong khu vực chung.
+    - Article 5.4: Không lưu trữ hoặc sử dụng chất cấm.
+  - **An toàn cháy nổ & Tiết kiệm năng lượng**:
+    - Article 6.2: Phân loại rác đúng nơi quy định.
+    - Article 6.3: Không gây cản trở hệ thống phòng cháy chữa cháy.
+    - Article 7: Chỉ sử dụng thiết bị điện hợp lệ theo quy định.
 
 ### 🔹 Dashboard Admin
 - Hiển thị danh sách phòng dưới dạng **block layout**.
