@@ -1,7 +1,5 @@
 # TÀI LIỆU KỸ THUẬT: ỨNG DỤNG KIỂM KÊ KÝ TÚC XÁ
 
-# TÀI LIỆU KỸ THUẬT: ỨNG DỤNG KIỂM KÊ KÝ TÚC XÁ
-
 ## 1. Đặt vấn đề
 ### Tài nguyên sử dụng
 - **Google Sheets**: Lưu trữ dữ liệu kiểm kê tài sản và vi phạm.
