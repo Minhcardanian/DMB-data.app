@@ -27,7 +27,7 @@
   - **Bộ chăn nệm**
 - Lưu dữ liệu trực tiếp vào Google Sheets (tab `Kiểm kê tài sản`).
 - Có thể cập nhật lại nếu sai sót.
-  
+
 ### 🔹 Kiểm kê vi phạm
 - Nhân viên nhập số phòng và chọn loại vi phạm.
 - Ghi chú chi tiết về vi phạm, ngày kiểm tra, người kiểm tra.
@@ -60,7 +60,30 @@
 
 ---
 
-## 3. Thiết kế Database trên Google Sheets
+## 3. Yêu cầu kỹ thuật
+### 🔹 Frontend
+- **Mobile App**: React Native
+- **Admin Dashboard**: React (hosted on Netlify)
+- **UI Framework**: TailwindCSS / Material UI
+- **State Management**: React Context API / Redux
+
+### 🔹 Backend
+- **Serverless API**: Google Apps Script
+- **Database**: Google Sheets
+- **Authentication**: Google OAuth (nếu cần quyền hạn)
+- **Data Sync**: Fetch API với Google Apps Script
+
+### 🔹 Hạ tầng và triển khai
+- **Hosting**:
+  - Mobile App: Expo / Firebase Distribution
+  - Admin Dashboard: Netlify
+  - Google Apps Script: Auto Deployed
+- **Version Control**: GitHub
+- **Monitoring & Logging**: Google Apps Script Logs
+
+---
+
+## 4. Thiết kế Database trên Google Sheets
 ### Schema Database
 ```mermaid
 erDiagram
@@ -89,7 +112,7 @@ erDiagram
 
 ---
 
-## 4. Công nghệ & Hosting
+## 5. Công nghệ & Hosting
 ```mermaid
 graph TD;
   A[Frontend] -->|React Native| B(Mobile App);
@@ -101,7 +124,7 @@ graph TD;
 
 ---
 
-## 5. Tổng kết
+## 6. Tổng kết
 - Ứng dụng giúp nhập liệu **nhanh hơn, chính xác hơn**, loại bỏ việc nhập tay.
 - **Admin có thể quản lý trạng thái kiểm kê real-time** qua Google Sheets và Dashboard.
 - **Không cần server riêng** – sử dụng Google Apps Script để kết nối trực tiếp với Google Sheets.
