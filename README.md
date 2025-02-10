@@ -1,6 +1,28 @@
 # TÀI LIỆU KỸ THUẬT: ỨNG DỤNG KIỂM KÊ KÝ TÚC XÁ
 
+# TÀI LIỆU KỸ THUẬT: ỨNG DỤNG KIỂM KÊ KÝ TÚC XÁ
+
 ## 1. Đặt vấn đề
+### Tài nguyên sử dụng
+- **Google Sheets**: Lưu trữ dữ liệu kiểm kê tài sản và vi phạm.
+- **Google Apps Script**: Xử lý backend, kết nối API để thao tác dữ liệu.
+- **React Native**: Xây dựng ứng dụng di động.
+- **React + Netlify**: Xây dựng và triển khai dashboard admin.
+- **GitHub**: Quản lý phiên bản mã nguồn.
+- **Firebase (tùy chọn)**: Lưu trữ dữ liệu tạm thời hoặc hỗ trợ tính năng push notification.
+
+### Phân quyền người dùng
+- **Nhân viên kiểm kê**:
+  - Nhập dữ liệu kiểm kê tài sản.
+  - Ghi nhận vi phạm.
+- **Quản trị viên (Admin)**:
+  - Xem tổng quan kiểm kê tất cả phòng.
+  - Cập nhật danh sách tài sản và loại vi phạm.
+  - Xuất dữ liệu báo cáo từ Google Sheets.
+- **Người quản lý KTX**:
+  - Đánh giá dữ liệu kiểm kê.
+  - Xác nhận hoặc xử lý vi phạm.
+  - Phân công nhiệm vụ kiểm kê.
 ### Hạn chế của phương pháp ghi chép giấy truyền thống
 - **Tốn thời gian**: Nhân viên phải viết tay thông tin sau đó nhập lại vào máy, gây mất thời gian và dễ xảy ra sai sót.
 - **Khả năng sai sót cao**: Do quá trình nhập liệu thủ công, dễ bị nhầm lẫn số liệu hoặc mất dữ liệu.
